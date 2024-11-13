@@ -4,9 +4,9 @@ import ReactDOM from 'react-dom';
 import InstagramLinkPage from './components/InstagramLinkPage';
 
 
-ReactDOM.render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <InstagramLinkPage />
   </React.StrictMode>,
-  document.getElementById('root')
+ 
 );
